@@ -11,7 +11,9 @@
 - [Application Description](#Application-Description)
   - [WebSocket](#WobSocket)
   - [WebPage](#web-page)
-  
+- [Execute Run](#Execute-Run)
+
+
 ## Overview
 WebSocket & non-blocking 방식의 실시간 채팅 서비스 예제 입니다.
 
@@ -112,5 +114,14 @@ public RouterFunction<ServerResponse> imgRouter() {
 }
 ```
 
+### Execute RUN
+Build
+```shell script
+./gradlew build
+```
 
-
+Docker Run
+```shell script
+docker-compose up
+```
+Open Browser : http://localhost:8080
